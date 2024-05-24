@@ -1,0 +1,64 @@
+.container {
+    display: block;
+    width: 1770px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    justify-items: stretch;
+    gap: 0;
+}
+
+.card_item1 {
+    grid-column: span 3;
+    font-size: 30px;
+    grid-gap: 20px;
+    text-align: left;
+    background-color: rgb(116, 124, 124);
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card_item2 {
+    grid-column: span 2;
+    right: 100;
+
+}
+
+.carddb {
+    background-color: antiquewhite;
+    color: black;
+    display: grid;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 8, 0);
+    height: 30px;
+    gap: 30p;
+}
+
+.card {
+    color: black;
+    display: grid;
+
+
+}
+
+header {
+    padding-bottom: 50px;
+}
